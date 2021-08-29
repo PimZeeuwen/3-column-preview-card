@@ -1,0 +1,140 @@
+body {
+    background-color: white;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+
+wrapper {
+    background-color: white;
+    height: 500px;
+    width: 900px;
+    margin: 50px auto;
+    display: block
+}
+
+.column {
+    width: 300px;
+    height: 500px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.content {
+    width: 200px;
+    height: 400px;
+    margin: 50px;
+    display: inline;
+}
+
+
+img {
+    top: 50px;
+    position: relative;
+}
+
+
+h1 {
+    top: 50px;
+    left: 50px;
+    position: relative;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+
+.container p {
+    top: 50px;
+    left: 50px;
+    position: relative;
+    opacity: 0.5;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+
+h1, p {
+    color: white;
+}
+
+
+.container {
+    width: 175px;
+}
+
+button {
+    position: relative;
+    margin: 150px 50px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    border-bottom-left-radius: 20% 60%;
+    border-bottom-right-radius: 20% 60%;
+    border-top-left-radius: 20% 60%;
+    border-top-right-radius: 20% 60%;
+}
+
+button:hover {
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+
+#left {
+    background-color: hsl(31, 77%, 52%);
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#left button p {
+    color: hsl(31, 77%, 52%);
+}
+
+#left button:hover {
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+}
+
+#left button:hover p {
+    color: white;
+}
+
+#middle {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#middle button p {
+    color: hsl(184, 100%, 22%);
+}
+
+#middle button:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#middle button:hover p {
+    color: white;
+}
+
+#right {
+    background-color: hsl(179, 100%, 13%);
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#right button p {
+    color: hsl(179, 100%, 13%);
+}
+
+#right button:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
+#right button:hover p {
+    color: white;
+}
